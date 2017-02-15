@@ -1,0 +1,19 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/index.js",
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "NODE_ENV": "development",
+                "LuisAppId": "4704ca86-fac2-41f6-ae88-eb76ce302dbf",
+                "LuisAPIKey": "be089e8e-e321-4f44-9f9b-44d6a814a81e",
+                "LuisAPIHostName": "westus.api.cognitive.microsoft.com"
+            }
+        }
+    ]
+}
